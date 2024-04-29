@@ -30,4 +30,4 @@ pod install
 ## Demo Video
 
 Check out this brief demo of the project in action:
-[https://www.youtube.com/shorts/fZNzSpYLfeo](https://www.youtube.com/shorts/fZNzSpYLfeo)
+[Watch the Demo Video](https://www.youtube.com/shorts/fZNzSpYLfeo)
