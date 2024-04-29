@@ -1,4 +1,4 @@
-```markdown
+
 # ARKit Planet Tracker
 
 Welcome to the ARKit Planet Tracker! This iOS app uses ARKit to provide a real-time augmented reality view of the planets in our solar system and the International Space Station's position.
