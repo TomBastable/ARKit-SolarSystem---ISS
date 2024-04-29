@@ -25,7 +25,7 @@ Follow these steps to get your app up and running:
 git clone
 2. **Install dependencies**:
 pod install
-2 Open the XCWorkspace
+3. Open the XCWorkspace
 
 ## Demo Video
 
