@@ -55,7 +55,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     }
     
     func getCurrentLocation() -> CLLocation? {
-        manager.requestLocation()  // Requests the current location once
+        manager.requestLocation()
         return manager.location
     }
 }

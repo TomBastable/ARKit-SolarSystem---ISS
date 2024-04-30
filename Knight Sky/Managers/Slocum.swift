@@ -124,7 +124,7 @@ class Slocum {
                       cos(φ1) * sin(φ2) - sin(φ1) * cos(φ2) * cos(λ2 - λ1))
         
         let azimuth = ψ * 180 / .pi
-        let correctedAzimuth = (azimuth < 0) ? azimuth + 360 : azimuth
+        //let correctedAzimuth = (azimuth < 0) ? azimuth + 360 : azimuth
 
         let rS = data.alt + earthRadius
         let γ = acos(sin(φ1) * sin(φ2) + cos(φ1) * cos(φ2) * cos(λ1 - λ2))

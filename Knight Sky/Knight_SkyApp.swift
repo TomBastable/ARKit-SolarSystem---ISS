@@ -11,7 +11,7 @@ import SwiftUI
 struct Knight_SkyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

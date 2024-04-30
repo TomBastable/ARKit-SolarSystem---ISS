@@ -11,7 +11,7 @@
 		41B6C95E187FC12980C5A446 /* Pods_Knight_Sky_Knight_SkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27493737711F33A0E9428DF7 /* Pods_Knight_Sky_Knight_SkyUITests.framework */; };
 		8AA8041DC1FF02BAB7C6DBDF /* Pods_Knight_SkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4542FBF1FC1522BB2D50FA59 /* Pods_Knight_SkyTests.framework */; };
 		F29366B62BDCF72000654247 /* Knight_SkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29366B52BDCF72000654247 /* Knight_SkyApp.swift */; };
-		F29366B82BDCF72000654247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29366B72BDCF72000654247 /* ContentView.swift */; };
+		F29366B82BDCF72000654247 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29366B72BDCF72000654247 /* MainView.swift */; };
 		F29366BA2BDCF72100654247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29366B92BDCF72100654247 /* Assets.xcassets */; };
 		F29366BD2BDCF72100654247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29366BC2BDCF72100654247 /* Preview Assets.xcassets */; };
 		F29366C72BDCF72200654247 /* Knight_SkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29366C62BDCF72200654247 /* Knight_SkyTests.swift */; };
@@ -48,6 +48,13 @@
 		F2F8CDE52BDFB8CD007D6786 /* Satellite Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDE42BDFB8CD007D6786 /* Satellite Coordinates.swift */; };
 		F2F8CDE82BDFB9AD007D6786 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDE72BDFB9AD007D6786 /* Double+Extension.swift */; };
 		F2F8CDEA2BDFC1EC007D6786 /* SceneKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDE92BDFC1EC007D6786 /* SceneKitContainer.swift */; };
+		F2F8CDED2BE0F7B2007D6786 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDEC2BE0F7B2007D6786 /* HeaderView.swift */; };
+		F2F8CDEF2BE0F8A1007D6786 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDEE2BE0F8A1007D6786 /* Color+Extension.swift */; };
+		F2F8CDF12BE0F8F0007D6786 /* BackgroundFadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDF02BE0F8F0007D6786 /* BackgroundFadeView.swift */; };
+		F2F8CDF32BE0F98B007D6786 /* PlanetTitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDF22BE0F98B007D6786 /* PlanetTitleHeaderView.swift */; };
+		F2F8CDF52BE0FA95007D6786 /* PlanetNavHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDF42BE0FA95007D6786 /* PlanetNavHeaderView.swift */; };
+		F2F8CDF72BE0FB5A007D6786 /* PlanetDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDF62BE0FB5A007D6786 /* PlanetDataView.swift */; };
+		F2F8CDF92BE0FC3A007D6786 /* PlanetOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CDF82BE0FC3A007D6786 /* PlanetOverviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +86,7 @@
 		F0662AB4F34F4B266B4D66B6 /* Pods-Knight Sky-Knight SkyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight Sky-Knight SkyUITests.release.xcconfig"; path = "Target Support Files/Pods-Knight Sky-Knight SkyUITests/Pods-Knight Sky-Knight SkyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F29366B22BDCF72000654247 /* Knight Sky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knight Sky.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29366B52BDCF72000654247 /* Knight_SkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight_SkyApp.swift; sourceTree = "<group>"; };
-		F29366B72BDCF72000654247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F29366B72BDCF72000654247 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F29366B92BDCF72100654247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F29366BC2BDCF72100654247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F29366C22BDCF72200654247 /* Knight SkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knight SkyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +126,13 @@
 		F2F8CDE42BDFB8CD007D6786 /* Satellite Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Satellite Coordinates.swift"; sourceTree = "<group>"; };
 		F2F8CDE72BDFB9AD007D6786 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		F2F8CDE92BDFC1EC007D6786 /* SceneKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitContainer.swift; sourceTree = "<group>"; };
+		F2F8CDEC2BE0F7B2007D6786 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F2F8CDEE2BE0F8A1007D6786 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		F2F8CDF02BE0F8F0007D6786 /* BackgroundFadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFadeView.swift; sourceTree = "<group>"; };
+		F2F8CDF22BE0F98B007D6786 /* PlanetTitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTitleHeaderView.swift; sourceTree = "<group>"; };
+		F2F8CDF42BE0FA95007D6786 /* PlanetNavHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNavHeaderView.swift; sourceTree = "<group>"; };
+		F2F8CDF62BE0FB5A007D6786 /* PlanetDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataView.swift; sourceTree = "<group>"; };
+		F2F8CDF82BE0FC3A007D6786 /* PlanetOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOverviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,9 +213,10 @@
 			children = (
 				F29366E32BDCF85700654247 /* Knight-Sky-Info.plist */,
 				F29366B52BDCF72000654247 /* Knight_SkyApp.swift */,
-				F29366B72BDCF72000654247 /* ContentView.swift */,
+				F29366B72BDCF72000654247 /* MainView.swift */,
 				F29366DF2BDCF75B00654247 /* ARViewController.swift */,
 				F2F8CDE92BDFC1EC007D6786 /* SceneKitContainer.swift */,
+				F2F8CDEB2BE0F78D007D6786 /* Views */,
 				F2F8CDE62BDFB99E007D6786 /* Extensions */,
 				F2F8CDDF2BDFB7C8007D6786 /* Managers */,
 				F2F8CDDE2BDFB7BF007D6786 /* Model */,
@@ -322,8 +337,22 @@
 			isa = PBXGroup;
 			children = (
 				F2F8CDE72BDFB9AD007D6786 /* Double+Extension.swift */,
+				F2F8CDEE2BE0F8A1007D6786 /* Color+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F2F8CDEB2BE0F78D007D6786 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2F8CDEC2BE0F7B2007D6786 /* HeaderView.swift */,
+				F2F8CDF82BE0FC3A007D6786 /* PlanetOverviewView.swift */,
+				F2F8CDF02BE0F8F0007D6786 /* BackgroundFadeView.swift */,
+				F2F8CDF22BE0F98B007D6786 /* PlanetTitleHeaderView.swift */,
+				F2F8CDF42BE0FA95007D6786 /* PlanetNavHeaderView.swift */,
+				F2F8CDF62BE0FB5A007D6786 /* PlanetDataView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,14 +617,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29366B82BDCF72000654247 /* ContentView.swift in Sources */,
+				F29366B82BDCF72000654247 /* MainView.swift in Sources */,
 				F2F8CDE52BDFB8CD007D6786 /* Satellite Coordinates.swift in Sources */,
+				F2F8CDF12BE0F8F0007D6786 /* BackgroundFadeView.swift in Sources */,
 				F29366B62BDCF72000654247 /* Knight_SkyApp.swift in Sources */,
 				F2F8CDEA2BDFC1EC007D6786 /* SceneKitContainer.swift in Sources */,
 				F2F8CDE12BDFB7D9007D6786 /* LocationManager.swift in Sources */,
+				F2F8CDF72BE0FB5A007D6786 /* PlanetDataView.swift in Sources */,
+				F2F8CDED2BE0F7B2007D6786 /* HeaderView.swift in Sources */,
+				F2F8CDF52BE0FA95007D6786 /* PlanetNavHeaderView.swift in Sources */,
+				F2F8CDF92BE0FC3A007D6786 /* PlanetOverviewView.swift in Sources */,
 				F2F8CDE82BDFB9AD007D6786 /* Double+Extension.swift in Sources */,
 				F29366EC2BDCF93700654247 /* Slocum.swift in Sources */,
+				F2F8CDF32BE0F98B007D6786 /* PlanetTitleHeaderView.swift in Sources */,
 				F2F8CDE32BDFB839007D6786 /* Celestial Object.swift in Sources */,
+				F2F8CDEF2BE0F8A1007D6786 /* Color+Extension.swift in Sources */,
 				F29366E02BDCF75B00654247 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
