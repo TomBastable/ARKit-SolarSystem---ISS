@@ -18,9 +18,6 @@ Before you begin, ensure you have the following installed:
 
 Follow these steps to get your app up and running:
 
-##TODO: 
-- Refactor the extremely poor SwiftUI view (It was rushed!)
-
 1. **Clone the repository**:
 git clone
 2. **Install dependencies**:
